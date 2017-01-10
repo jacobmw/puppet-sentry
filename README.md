@@ -18,7 +18,7 @@
 
 The sentry module installs, configures, and manages the
 [Sentry](http://sentry.readthedocs.org/) realtime event logging and
-aggregation platform. It supports Sentry version >= 7.7.0, < 8.0.0 on
+aggregation platform. It supports Sentry version >= 7.7.0 on
 the following platforms:
 
 * Debian 7 (Wheezy)
