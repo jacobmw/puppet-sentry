@@ -6,9 +6,9 @@ class sentry::install::python
 
   if $sentry::manage_python {
     class { '::python':
-      dev        => true,
-      pip        => true,
-      virtualenv => true,
+      dev        => present,
+      pip        => present,
+      virtualenv => present,
     } -> Package <| provider == 'pip' |>
 
     python::virtualenv { $virtualenv_path:
